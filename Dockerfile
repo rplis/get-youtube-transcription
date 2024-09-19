@@ -35,7 +35,8 @@ RUN chmod +x /whisper.cpp/main
 RUN chmod 644 /whisper.cpp/models/ggml-base.en.bin
 RUN chmod 777 /app
 
-# Final check for model file
+# Final check for model file and permissions
 RUN ls -l /whisper.cpp/models/ggml-base.en.bin
+RUN ls -l /whisper.cpp/main
 
 CMD ["python3", "app.py"]

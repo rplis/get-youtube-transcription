@@ -4,5 +4,4 @@ services:
     build: .
     ports:
       - "5000:5000"
-    volumes:
-      - ./models:/whisper.cpp/models
+    # Make sure there are no volume mounts here that might interfere with the file system

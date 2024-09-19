@@ -1,4 +1,0 @@
-{
-  "error": "Output file audio.wav.txt not found",
-  "traceback": "Traceback (most recent call last):\n  File \"/app/app.py\", line 73, in transcribe\n    raise Exception(f\"Output file {output_file} not found\")\nException: Output file audio.wav.txt not found\n"
-}
